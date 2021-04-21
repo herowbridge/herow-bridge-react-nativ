@@ -56,7 +56,6 @@ at the native app level.
 
 The following methods allow your application to be compliant to GDPR.
 
-You can find out more about this by reading our [GDPR tutorial](being-compliant-with-gdpr.html).
 
 ```javascript
 import RNConnecthings from 'react-native-connecthings';
