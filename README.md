@@ -1,7 +1,5 @@
 # react-native-connecthings
 
-Please refer to our [react-native tutorial](https://docs.herow.io/sdk/6.2/ios/cross-platform-react-native.html).
-
 ## React bridge change log
 ### 7.0.1 - April 20th
 - Update iOS and Android versions to 7.0.0
