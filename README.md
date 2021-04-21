@@ -62,7 +62,7 @@ You can find out more about this by reading our [GDPR tutorial](being-compliant-
 import RNConnecthings from 'react-native-connecthings';
 
 RNConnecthings.acceptOptin();
-or if you want to refuse
+//or if you want to refuse
 RNConnecthings.refuseOptin();
 
 ```
@@ -70,7 +70,7 @@ RNConnecthings.refuseOptin();
 ```javascript
 
 RNConnecthings.launchClickAndCollect();
-or if you want to stop
+//or if you want to stop
 RNConnecthings.stopClickAndCollect();
 
 ```
@@ -80,7 +80,7 @@ RNConnecthings.stopClickAndCollect();
 The following method allow you to set a custom user ID.
 ```javascript
 RNConnecthings.setCustomId("customUserIdentifier");
-or remove it 
+//or remove it 
 RNConnecthings.removeCustomId();
 ```
 
