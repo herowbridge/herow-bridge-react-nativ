@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.connecthings.connectplace:placedetection:3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a0a8d249cfe29d616d9acebb4b87533/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a0a8d249cfe29d616d9acebb4b87533/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.connecthings.connectplace/placedetection/3.0.0/618f64fd30155ed9efdee61f78fc27ed7ebe9b98/placedetection-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.connecthings.connectplace:common:3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4aea97ee929f21e7b2d3b98457bc6d55/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4aea97ee929f21e7b2d3b98457bc6d55/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.connecthings.connectplace/common/3.0.0/9eb3f4cc0acaf19844a6a64bfb5cd87fa0376f45/common-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
