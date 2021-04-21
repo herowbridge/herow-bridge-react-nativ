@@ -1,12 +1,9 @@
 # react-native-connecthings
 
-
-## Usage
-
 Please refer to our [react-native tutorial](https://docs.herow.io/sdk/6.2/ios/cross-platform-react-native.html).
 
 ## React bridge change log
-### 7.0.0 - April 20th
+### 7.0.1 - April 20th
 - Update iOS and Android versions to 7.0.0
 
 ### 6.3.3 - February 19 th
@@ -27,12 +24,13 @@ Please refer to our [react-native tutorial](https://docs.herow.io/sdk/6.2/ios/cr
 ### 6.2.0 - June 11th
 - Update iOS and Android versions to 6.2.0
 
+## Usage
 
-## Add the plugin to your project
+### Add the plugin to your project
 
 * Add the plugin to your npm dependecies:
 ```
-npm install react-native-connecthings@^7.0.0 --save
+npm install react-native-connecthings@^7.0.1 --save
 ```
 
 * The plugin support autolink since version 5.1.3, so no need to run link command.
@@ -50,13 +48,13 @@ npm install react-native-connecthings@^7.0.0 --save
 > `react-native unlink react-native-connecthings`
 > You will need to read [the official React Native blog post about the major 0.60 release](https://facebook.github.io/react-native/blog/2019/07/03/version-60) and check their [upgrade helper](https://react-native-community.github.io/upgrade-helper/?from=0.59.10&to=0.61.4) .
 <!--{blockquote:.note}-->
-## Initialize the SDK
+### Initialize the SDK
 
-Follow the [iOS](https://docs.herow.io/sdk/6.2/ios/5-minutes-quickstart.html) and [Android](https://docs.herow.io/sdk/6.2/android/5-minutes-quickstart.html) minutes quickstart to initialize the SDK
+Follow the [iOS](https://github.com/herowio/herow-sdk-ios/blob/main/README.md) and [Android](https://github.com/herowio/herow-sdk-android/blob/main/README.md) minutes quickstart to initialize the SDK
 at the native app level.
 
 
-## Being compliant with GDPR
+### Being compliant with GDPR
 
 The following methods allow your application to be compliant to GDPR.
 
@@ -70,13 +68,22 @@ or if you want to refuse
 RNConnecthings.refuseOptin();
 
 ```
-## Launch or stop ClickAndCollect Mode
+### Launch or stop ClickAndCollect Mode
+```javascript
 
-## Setting custom user ID
+RNConnecthings.launchClickAndCollect();
+or if you want to stop
+RNConnecthings.stopClickAndCollect();
+
+```
+
+### Setting custom user ID
 
 The following method allow you to set a custom user ID.
 ```javascript
 RNConnecthings.setCustomId("customUserIdentifier");
+or remove it 
+RNConnecthings.removeCustomId();
 ```
 
 
