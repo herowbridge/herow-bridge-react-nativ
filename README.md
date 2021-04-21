@@ -1,7 +1,7 @@
 # react-native-connecthings
 
 ## React bridge change log
-### 7.0.1 - April 20th
+### 7.0.2 - April 21th
 - Update iOS and Android versions to 7.0.0
 
 ### 6.3.3 - February 19 th
@@ -28,7 +28,7 @@
 
 * Add the plugin to your npm dependecies:
 ```
-npm install react-native-connecthings@^7.0.1 --save
+npm install react-native-connecthings@^7.0.2 --save
 ```
 
 * The plugin support autolink since version 5.1.3, so no need to run link command.
